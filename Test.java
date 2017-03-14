@@ -12,6 +12,7 @@ public class Test {
         List<Object> list = new ArrayList<Object>();
         //21312312312
         list.add(new Integer(1));
+        //改个bug
         System.out.println(list.get(0));
         //hahaha
     }
