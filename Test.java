@@ -10,6 +10,7 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
         List<Object> list = new ArrayList<Object>();
+        //21312312312
         list.add(new Integer(1));
         System.out.println(list.get(0));
         //hahaha
