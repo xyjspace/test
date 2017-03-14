@@ -12,5 +12,6 @@ public class Test {
         List<Object> list = new ArrayList<Object>();
         list.add(new Integer(1));
         System.out.println(list.get(0));
+        //hahaha
     }
 }
