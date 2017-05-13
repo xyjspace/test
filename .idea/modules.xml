@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm_study/algorithm_study.iml" filepath="$PROJECT_DIR$/algorithm_study/algorithm_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lucene_study/lucene_study.iml" filepath="$PROJECT_DIR$/lucene_study/lucene_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
+      <module fileurl="file://H:\test\practice\python-test\python-test.iml" filepath="H:\test\practice\python-test\python-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_python/test_python.iml" filepath="$PROJECT_DIR$/test_python/test_python.iml" />
+    </modules>
+  </component>
+</project>
