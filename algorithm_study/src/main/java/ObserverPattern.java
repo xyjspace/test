@@ -1,5 +1,3 @@
-package design.pattern;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,7 +42,7 @@ interface Observer{
 }
 
 class  Ticket implements Subject{
-    List<Observer> list = new ArrayList<>();
+    List<Observer> list = new ArrayList();
 
     @Override
     public void attach(Observer observer) {
@@ -75,7 +73,7 @@ class User implements Observer{
     public User(String name){
         this.name = name;
     }
-    @Override
+
     public void update() {
         System.out.println(name + "开始抢票了");
     }
