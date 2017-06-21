@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/kafka_study/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper_study/pom.xml" />
         <option value="$PROJECT_DIR$/pattern_study/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro_study/pom.xml" />
       </list>
     </option>
   </component>

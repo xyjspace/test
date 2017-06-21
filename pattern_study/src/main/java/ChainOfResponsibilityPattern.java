@@ -18,7 +18,7 @@ public class ChainOfResponsibilityPattern {
         User user = new User();
         user.setAccount("xyj");
         user.setIdentity("1");
-        user.setPassword("1234");
+        user.setPassword("123");
         user.setBalance("12");
         Handler handler = setProcess();
         handler.handlerRequest(user);
