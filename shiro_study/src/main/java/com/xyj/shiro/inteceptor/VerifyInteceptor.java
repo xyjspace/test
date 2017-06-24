@@ -53,9 +53,8 @@ public class VerifyInteceptor implements HandlerInterceptor {
         if(crmPermission != null){
             System.out.println(crmPermission.value());
         }
-        System.out.printf("权限通过");
+        System.out.println("权限通过");
         return true;
     }
 
 }
-
