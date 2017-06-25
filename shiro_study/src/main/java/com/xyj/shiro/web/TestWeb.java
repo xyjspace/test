@@ -1,7 +1,6 @@
 package com.xyj.shiro.web;
 
-import com.xyj.shiro.annotation.CrmPermission;
-import com.xyj.shiro.entity.User;
+import com.xyj.shiro.domain.entity.User;
 import com.xyj.shiro.util.LogUtils;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Controller;

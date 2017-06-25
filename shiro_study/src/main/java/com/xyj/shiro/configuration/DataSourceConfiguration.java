@@ -2,13 +2,16 @@ package com.xyj.shiro.configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.xyj.shiro.util.LogUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.bind.RelaxedPropertyResolver;
 import org.springframework.context.EnvironmentAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Controller;
 
 import javax.sql.DataSource;
+import javax.xml.crypto.Data;
 
 /**
  * Created by banma on 2017/6/23.
