@@ -11,6 +11,7 @@
         <module name="lucene_study" />
         <module name="pattern_study" />
         <module name="shiro_study" />
+        <module name="springboot-start" />
         <module name="zookeeper_study" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="lucene_study" target="1.8" />
       <module name="pattern_study" target="1.8" />
       <module name="shiro_study" target="1.8" />
+      <module name="springboot-start" target="1.8" />
       <module name="zookeeper_study" target="1.8" />
     </bytecodeTargetLevel>
   </component>

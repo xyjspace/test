@@ -26,7 +26,7 @@ public class UserController {
     @RequestMapping(value = "/addUser.do", method = RequestMethod.POST)
     public void addUser(UserForm userForm) {
         userService.addUser(userForm);
-        LogUtils.logger.info("插入用戶數據成功");
+        LogUtils.log4j2.info("插入用戶數據成功");
     }
 
 }

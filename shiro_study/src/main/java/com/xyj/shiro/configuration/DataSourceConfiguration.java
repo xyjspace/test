@@ -28,7 +28,7 @@ public class DataSourceConfiguration implements EnvironmentAware {
 
     @Bean(destroyMethod = "close", initMethod = "init")
     public DataSource writeDataSource() throws Exception{
-        LogUtils.logger.info("注入druid!");
+        LogUtils.log4j.info("注入druid!");
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setUrl(propertyResolver.getProperty("url"));
         dataSource.setDriverClassName(propertyResolver.getProperty("driver-class-name"));

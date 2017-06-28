@@ -11,14 +11,26 @@ spring:
       maxActive: 20
       maxWait: 6000
       filters: stat,wall,log4j
+  #日志颜色的问题
+  output:
+    ansi:
+      enabled: detect
 
 
 
 server:
   port:  8888
+
 logging:
-  config: classpath:log4j2.xml
+  config: classpath:log4j.properties
 
 mybatis:
   mapperLocations: classpath:mybatis/*.xml
   typeAliasesPackage: com.xyj.shiro.domain
+
+#默认日志  默认级别是 INFO,WARN,ERROR
+#logging:
+#  file: my.log
+#  path: logs/
+#  level.*: info
+
