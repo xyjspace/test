@@ -10,6 +10,7 @@
       <module fileurl="file://H:\test\practice\python-test\python-test.iml" filepath="H:\test\practice\python-test\python-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro_study/shiro_study.iml" filepath="$PROJECT_DIR$/shiro_study/shiro_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-start/springboot-start.iml" filepath="$PROJECT_DIR$/springboot-start/springboot-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_study/springcloud_eureka_study.iml" filepath="$PROJECT_DIR$/springcloud_eureka_study/springcloud_eureka_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_python/test_python.iml" filepath="$PROJECT_DIR$/test_python/test_python.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper_study/zookeeper_study.iml" filepath="$PROJECT_DIR$/zookeeper_study/zookeeper_study.iml" />
     </modules>
