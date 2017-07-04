@@ -1,0 +1,11 @@
+server:
+  port: 8888
+eureka:
+  client:
+  #是否从注册中心拉取服务列表
+    fetch-registry: false
+  #是否将自己作为服务提供者注册到注册中心
+    register-with-eureka: false
+  #注册中心的地址
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
