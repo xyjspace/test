@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xyj.study</groupId>
-    <artifactId>springcloud_eureka_study</artifactId>
+    <artifactId>springcloud_producer</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <parent>
         <groupId>com.xyj.study</groupId>
         <artifactId>practice</artifactId>
@@ -20,7 +21,7 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
     </dependencies>
 </project>
