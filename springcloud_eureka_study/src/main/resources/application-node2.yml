@@ -1,0 +1,9 @@
+server:
+  port: 8882
+
+eureka:
+  client:
+  #注册中心的地址
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+
