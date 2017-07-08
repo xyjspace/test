@@ -11,8 +11,8 @@ server:
     #serviceUrl:
      # defaultZone: http://localhost:8882/eureka/
 spring:
-#  profiles:
-#    active: node1
+  profiles:
+    active: node2
   application:
     name: eureka-server
 

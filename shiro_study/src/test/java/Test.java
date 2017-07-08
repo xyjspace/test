@@ -1,4 +1,7 @@
 import com.xyj.shiro.domain.entity.User;
+import org.apache.commons.beanutils.ConvertUtils;
+import org.apache.commons.beanutils.converters.IntegerConverter;
+import org.apache.commons.beanutils.converters.LongConverter;
 import org.assertj.core.util.Lists;
 
 import java.util.List;
@@ -36,5 +39,17 @@ public class Test {
         }
 
 
+    }
+
+    @org.junit.Test
+    public void test2(){
+        ConvertUtils.register(new IntegerConverter(null), Integer.class);
+        User user = new User();
+        user.setAge(1);
+        ConvertUtils.register(new LongConverter(null), Long.class);
+        //warningType 和 warningLevel 如果没传，转化为null
+        Integer a = ((Integer) ConvertUtils.convert(user.getAge(), Integer.class));
+        Long b = ((Long) ConvertUtils.convert(user.getSalt(), Long.class));
+        System.out.println(a +"   "+b);
     }
 }

@@ -1,0 +1,7 @@
+server:
+  port: 2911
+spring:
+  application:
+    name: springcloud_consumer
+  profiles:
+    active: test
