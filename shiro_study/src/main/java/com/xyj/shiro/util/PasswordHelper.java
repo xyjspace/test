@@ -42,7 +42,7 @@ public class PasswordHelper {
 
         if (passwordHelper == null) {
             synchronized (PasswordHelper.class) {
-                if(passwordHelper == null) {
+                if (passwordHelper == null) {
                     return new PasswordHelper();
                 }
             }

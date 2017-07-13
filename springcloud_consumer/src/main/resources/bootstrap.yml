@@ -1,7 +1,8 @@
 server:
-  port: 2911
+  port: 8911
 spring:
   application:
     name: springcloud_consumer
   profiles:
-    active: test
+    active: remote-test
+

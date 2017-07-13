@@ -1,5 +1,6 @@
 package com.xyj.shiro.web;
 
+import com.xyj.shiro.domain.entity.User;
 import com.xyj.shiro.domain.form.UserForm;
 import com.xyj.shiro.service.UserService;
 import com.xyj.shiro.util.LogUtils;
@@ -27,6 +28,11 @@ public class UserController {
     public void addUser(UserForm userForm) {
         userService.addUser(userForm);
         LogUtils.log4j2.info("插入用戶數據成功");
+    }
+
+    @RequestMapping(value = "/getUserByNameAndPassword.do", method = RequestMethod.POST)
+    public User getUserByNameAndPassword(UserForm userForm){
+        return userService.getUserByNameAndPassword(userForm);
     }
 
 }

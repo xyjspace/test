@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
+import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by banma on 2017/6/25.
@@ -31,4 +32,18 @@ public class UserServiceImpl implements UserService {
 
         return userMapper.addUser(user);
     }
+
+    @Override
+    public User getUserByNameAndPassword(UserForm userForm) {
+        User user = new User();
+        try {
+            PropertyUtils.copyProperties(user, userForm);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        user = userMapper.getUserByNameAndPassword(user);
+        return user;
+    }
+
+
 }

@@ -9,4 +9,6 @@ public interface UserMapper {
 
     boolean addUser(User user);
 
+    User getUserByNameAndPassword(User user);
+
 }

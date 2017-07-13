@@ -10,7 +10,6 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * Created by banma on 2017/6/21.
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-//@ServletComponentScan
 @MapperScan(basePackages = "com.xyj.shiro.mapper")
 public class ShiroTestApplication {
     public static void main(String[] args) {

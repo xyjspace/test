@@ -1,0 +1,17 @@
+from: hahaha
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8882/eureka/
+
+# 远程属性在这配置，不会起到任何作用，必须要放在bootstrap.yml里面。
+# 其实这里的意思 就相当于 profiles.active = test  不过由于集成了git，所有可以有版本控制。
+spring:
+  cloud:
+      config:
+        profile: test
+        label: master
+        uri: http://localhost:8076
+
+
