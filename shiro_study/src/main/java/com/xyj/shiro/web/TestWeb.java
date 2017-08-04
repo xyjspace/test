@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * Created by banma on 2017/6/21.
  */
-@Log4j
 @Controller
 public class TestWeb {
 //
@@ -23,18 +22,11 @@ public class TestWeb {
     @ResponseBody
     @RequestMapping(value = "test1", method = RequestMethod.GET)
     public User test1(){
+
+
         User user = new User();
-        user.setName("xunyajie");
-
-
-        log.trace("开始程序.");
-        log.trace("trace level");
-        log.debug("debug level");
-        log.info("info level");
-        log.warn("warn level");
-        log.error("error level");
-
-
+        user.setPTHaha("123312312");
+        user.getPTHaha();
         return user;
     }
 
