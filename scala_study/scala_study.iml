@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$USER_HOME$/scala_study/practice/out/production/scala_study" />
-    <output-test url="file://$USER_HOME$/scala_study/practice/out/test/scala_study" />
+    <output url="file://$MODULE_DIR$/out/production/scala_study" />
+    <output-test url="file://$MODULE_DIR$/practice/out/test/scala_study" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/scala" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
