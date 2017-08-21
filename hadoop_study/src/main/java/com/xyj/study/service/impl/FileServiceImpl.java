@@ -19,9 +19,10 @@ public class FileServiceImpl implements FileService {
     @Test
     public void uploadFile() throws Exception{
 //        System.setProperty("hadoop.home.dir", "/home/hadoop");
+        System.setProperty("user.name","hadoop");
         Configuration conf = new Configuration();
         FileSystem fs = FileSystem.get(URI.create("hdfs://master:9000"), conf, "hadoop");
-        fs.copyFromLocalFile(new Path("/Users/banma/docker/volumes/word"), new Path("/bbb/"));
+        fs.copyFromLocalFile(new Path("/Users/banma/docker/volumes/practice/innerjoin"), new Path("/bbb/innerJoin"));
         fs.close();
         System.out.println("已经上传文件到input文件夹啦");
     }

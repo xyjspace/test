@@ -31,7 +31,7 @@ public class NEmpress {
         }
         for (Long a : list) {
             System.out.println(a);
-        }/
+        }
 //        System.out.println(N + "皇后的最优解有：" + count + "种");
     }
 

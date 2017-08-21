@@ -27,7 +27,7 @@ public class WordcountJob  {
         job.setOutputValueClass(IntWritable.class);
 
         FileInputFormat.addInputPath(job, new Path("/bbb/word"));
-        FileOutputFormat.setOutputPath(job, new Path("/output/2"));
+        FileOutputFormat.setOutputPath(job, new Path("/output/3"));
 
         job.waitForCompletion(true);
 
