@@ -22,7 +22,7 @@ public class FileServiceImpl implements FileService {
         System.setProperty("user.name","hadoop");
         Configuration conf = new Configuration();
         FileSystem fs = FileSystem.get(URI.create("hdfs://master:9000"), conf, "hadoop");
-        fs.copyFromLocalFile(new Path("/Users/banma/docker/volumes/practice/innerjoin"), new Path("/bbb/innerJoin"));
+        fs.copyFromLocalFile(new Path("/Users/banma/docker/volumes/word"), new Path("/bbb/"));
         fs.close();
         System.out.println("已经上传文件到input文件夹啦");
     }

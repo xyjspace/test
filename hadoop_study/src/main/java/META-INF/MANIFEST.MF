@@ -1,44 +1,44 @@
 Manifest-Version: 1.0
-Class-Path: hadoop-mapreduce-client-shuffle-2.2.0.jar hadoop-yarn-serv
- er-common-2.2.0.jar spring-boot-starter-tomcat-1.5.1.RELEASE.jar comm
- ons-httpclient-3.1.jar hadoop-mapreduce-client-jobclient-2.2.0.jar ac
- tivation-1.1.jar stax-api-1.0.1.jar jsr311-api-1.1.1.jar spring-core-
- 4.3.6.RELEASE.jar jets3t-0.6.1.jar spring-context-4.3.6.RELEASE.jar j
- asper-compiler-5.5.23.jar servlet-api-2.5.jar jackson-jaxrs-1.8.3.jar
-  grizzly-http-server-2.1.2.jar grizzly-framework-2.1.2.jar jersey-gri
- zzly2-1.9.jar spring-web-4.3.6.RELEASE.jar jackson-core-asl-1.8.8.jar
-  paranamer-2.3.jar jsch-0.1.42.jar tomcat-embed-websocket-8.5.11.jar 
- jcl-over-slf4j-1.7.22.jar snakeyaml-1.17.jar hadoop-client-2.2.0.jar 
- logback-classic-1.1.9.jar spring-boot-autoconfigure-1.5.1.RELEASE.jar
-  hadoop-mapreduce-client-common-2.2.0.jar javax.servlet-api-3.1.0.jar
-  jackson-mapper-asl-1.8.8.jar xz-1.0.jar commons-net-3.1.jar hamcrest
- -core-1.3.jar jersey-core-1.19.1.jar jersey-test-framework-core-1.9.j
- ar jackson-databind-2.8.6.jar grizzly-http-2.1.2.jar zookeeper-3.4.5.
- jar jersey-guice-1.9.jar guava-18.0.jar tomcat-embed-el-8.5.11.jar co
- mmons-compress-1.4.1.jar commons-io-2.4.jar jaxb-api-2.2.2.jar spring
- -webmvc-4.3.6.RELEASE.jar log4j-over-slf4j-1.7.22.jar slf4j-log4j12-1
- .7.22.jar lombok-1.16.14.jar jackson-annotations-2.8.0.jar guice-3.0.
- jar jettison-1.1.jar hadoop-mapreduce-client-core-2.2.0.jar spring-bo
- ot-starter-1.5.1.RELEASE.jar hadoop-hdfs-2.2.0.jar grizzly-http-servl
- et-2.1.2.jar spring-boot-1.5.1.RELEASE.jar jboss-logging-3.3.0.Final.
- jar commons-logging-1.1.1.jar jersey-test-framework-grizzly2-1.9.jar 
- commons-lang-2.5.jar spring-boot-starter-logging-1.5.1.RELEASE.jar je
- tty-util-6.1.26.jar spring-expression-4.3.6.RELEASE.jar hadoop-annota
- tions-2.2.0.jar jasper-runtime-5.5.23.jar protobuf-java-2.5.0.jar had
- oop-yarn-common-2.2.0.jar grizzly-rcm-2.1.2.jar javax.servlet-3.1.jar
-  tomcat-embed-core-8.5.11.jar log4j-1.2.17.jar jetty-6.1.26.jar avro-
- 1.7.4.jar commons-configuration-1.8.jar jersey-client-1.19.1.jar jul-
- to-slf4j-1.7.22.jar jersey-json-1.9.jar jsp-api-2.1.jar aopalliance-1
- .0.jar jaxb-impl-2.2.3-1.jar hadoop-common-2.2.0.jar xmlenc-0.52.jar 
- commons-cli-1.2.jar hadoop-mapreduce-client-app-2.2.0.jar jackson-xc-
- 1.8.3.jar logback-core-1.1.9.jar spring-beans-4.3.6.RELEASE.jar sprin
- g-boot-starter-web-1.5.1.RELEASE.jar snappy-java-1.0.4.1.jar jersey-s
- erver-1.19.1.jar commons-codec-1.10.jar spring-aop-4.3.6.RELEASE.jar 
- management-api-3.0.0-b012.jar validation-api-1.1.0.Final.jar junit-4.
- 12.jar slf4j-api-1.7.22.jar hadoop-yarn-client-2.2.0.jar commons-math
- -2.1.jar hadoop-auth-2.2.0.jar jackson-core-2.8.6.jar javax.inject-1.
- jar gmbal-api-only-3.0.0-b023.jar hibernate-validator-5.3.4.Final.jar
-  hadoop-yarn-api-2.2.0.jar commons-el-1.0.jar classmate-1.3.3.jar com
- mons-daemon-1.0.13.jar
-Main-Class: 
+Class-Path: jackson-mapper-asl-1.8.8.jar commons-io-2.4.jar jersey-gri
+ zzly2-1.9.jar commons-codec-1.10.jar spring-boot-starter-logging-1.5.
+ 1.RELEASE.jar gmbal-api-only-3.0.0-b023.jar spring-expression-4.3.6.R
+ ELEASE.jar tomcat-embed-websocket-8.5.11.jar commons-lang-2.5.jar jer
+ sey-core-1.19.1.jar javax.servlet-api-3.1.0.jar guava-18.0.jar common
+ s-logging-1.1.1.jar grizzly-http-2.1.2.jar hadoop-yarn-client-2.2.0.j
+ ar zookeeper-3.4.5.jar paranamer-2.3.jar jasper-runtime-5.5.23.jar je
+ ts3t-0.6.1.jar log4j-1.2.17.jar jersey-test-framework-grizzly2-1.9.ja
+ r servlet-api-2.5.jar commons-configuration-1.8.jar lombok-1.16.14.ja
+ r hadoop-mapreduce-client-app-2.2.0.jar jersey-guice-1.9.jar tomcat-e
+ mbed-core-8.5.11.jar jersey-json-1.9.jar grizzly-http-server-2.1.2.ja
+ r hadoop-mapreduce-client-common-2.2.0.jar slf4j-api-1.7.22.jar jerse
+ y-server-1.19.1.jar management-api-3.0.0-b012.jar commons-net-3.1.jar
+  xmlenc-0.52.jar jackson-xc-1.8.3.jar jasper-compiler-5.5.23.jar spri
+ ng-webmvc-4.3.6.RELEASE.jar javax.servlet-3.1.jar hadoop-hdfs-2.2.0.j
+ ar javax.inject-1.jar log4j-over-slf4j-1.7.22.jar junit-4.12.jar hibe
+ rnate-validator-5.3.4.Final.jar commons-daemon-1.0.13.jar snakeyaml-1
+ .17.jar spring-beans-4.3.6.RELEASE.jar validation-api-1.1.0.Final.jar
+  jettison-1.1.jar commons-cli-1.2.jar grizzly-framework-2.1.2.jar act
+ ivation-1.1.jar slf4j-log4j12-1.7.22.jar jersey-test-framework-core-1
+ .9.jar jackson-annotations-2.8.0.jar commons-compress-1.4.1.jar hadoo
+ p-auth-2.2.0.jar commons-el-1.0.jar guice-3.0.jar spring-boot-starter
+ -tomcat-1.5.1.RELEASE.jar spring-core-4.3.6.RELEASE.jar hadoop-yarn-s
+ erver-common-2.2.0.jar commons-httpclient-3.1.jar hadoop-mapreduce-cl
+ ient-core-2.2.0.jar commons-math-2.1.jar jackson-databind-2.8.6.jar j
+ sp-api-2.1.jar jackson-core-2.8.6.jar avro-1.7.4.jar hadoop-common-2.
+ 2.0.jar jcl-over-slf4j-1.7.22.jar jersey-client-1.19.1.jar jackson-ja
+ xrs-1.8.3.jar jboss-logging-3.3.0.Final.jar logback-core-1.1.9.jar ja
+ xb-api-2.2.2.jar protobuf-java-2.5.0.jar spring-aop-4.3.6.RELEASE.jar
+  stax-api-1.0.1.jar logback-classic-1.1.9.jar hadoop-mapreduce-client
+ -jobclient-2.2.0.jar spring-context-4.3.6.RELEASE.jar jsch-0.1.42.jar
+  tomcat-embed-el-8.5.11.jar xz-1.0.jar spring-web-4.3.6.RELEASE.jar h
+ amcrest-core-1.3.jar jaxb-impl-2.2.3-1.jar aopalliance-1.0.jar spring
+ -boot-1.5.1.RELEASE.jar hadoop-annotations-2.2.0.jar hadoop-mapreduce
+ -client-shuffle-2.2.0.jar spring-boot-autoconfigure-1.5.1.RELEASE.jar
+  spring-boot-starter-web-1.5.1.RELEASE.jar jul-to-slf4j-1.7.22.jar ha
+ doop-client-2.2.0.jar grizzly-http-servlet-2.1.2.jar snappy-java-1.0.
+ 4.1.jar hadoop-yarn-common-2.2.0.jar jsr311-api-1.1.1.jar jackson-cor
+ e-asl-1.8.8.jar spring-boot-starter-1.5.1.RELEASE.jar jetty-util-6.1.
+ 26.jar hadoop-yarn-api-2.2.0.jar classmate-1.3.3.jar grizzly-rcm-2.1.
+ 2.jar jetty-6.1.26.jar
+Main-Class: com.xyj.study.mr.wordcount.WordcountJob
 

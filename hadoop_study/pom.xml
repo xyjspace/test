@@ -34,7 +34,20 @@
             <version>2.2.0</version>
         </dependency>
     </dependencies>
-
-
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>com.xyj.study.mr.wordcount.WordcountJob</mainClass> <!-- 你的主类名 -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
