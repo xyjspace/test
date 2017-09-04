@@ -21,7 +21,6 @@ object TotalTop5 {
 
     val top5 = count.reduceByKey(_+_).sortBy(_._2,false).take(5)
 
-    println(top5.toList.toBuffer)
-
+    println(top5.toBuffer)
   }
 }
