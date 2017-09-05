@@ -34,7 +34,7 @@ object PartitonInfo {
 
     rdd3.partitionBy(new HostPartitioner(ints)).mapPartitions(it => {
       it.toList.sortBy(_._2._2).reverse.take(3).iterator
-    }).saveAsTextFile("spark_study/result/05")
+    }).saveAsTextFile("spark_study/result/08")
 
     sc.stop()
 
