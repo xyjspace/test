@@ -33,6 +33,11 @@
             <artifactId>shiro-core</artifactId>
             <version>1.3.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.mini</groupId>
+            <artifactId>mini-biz</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
         <!-- 数据库连接 -->
         <dependency>

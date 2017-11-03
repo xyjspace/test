@@ -1,0 +1,14 @@
+
+
+tuling:
+  apikey: e710ca9054bc3559e83d490d09af19bc
+  postLocation: http://openapi.tuling123.com/openapi/api
+
+server:
+  port: 8002
+
+
+weixin:
+  appid: wx782c26e4c19acffb
+  getuuid: https://login.weixin.qq.com/jslogin
+  showQR: https://login.weixin.qq.com/qrcode/

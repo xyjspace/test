@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * Created by banma on 2017/9/5.
   * ....jdbcRDD好像只支持 long 的范围。。。、
-  * 
+  *
   */
 //object GetFromMysql {
 //  def main(args: Array[String]): Unit = {

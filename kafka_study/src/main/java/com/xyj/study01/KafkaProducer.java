@@ -16,9 +16,9 @@ public class KafkaProducer {
 
     static {
         Properties properties = new Properties();
-        properties.put("zk.connect","192.168.184.9:2181,192.168.184.11:2181,192.168.184.12:2181");
+//        properties.put("zk.connect","192.168.184.9:2181,192.168.184.11:2181,192.168.184.12:2181");
         //此处配置的是kafka的端口
-        properties.put("metadata.broker.list", "192.168.184.9:9092,192.168.184.11:9092,192.168.184.12:9092");
+        properties.put("metadata.broker.list", "localhost:9092");
         //配置value的序列化类
         properties.put("serializer.class", "kafka.serializer.StringEncoder");
         //配置key的序列化类

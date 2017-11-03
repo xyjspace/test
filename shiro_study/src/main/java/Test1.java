@@ -6,11 +6,12 @@ import org.springframework.beans.BeanUtils;
  */
 public class Test1 {
     public static void main(String[] args) {
-        A a = new A(){};
-        a.setA("123");
-        A b = new A(){};
-        BeanUtils.copyProperties(a,b);
-        System.out.printf(b.toString());
+       StringBuilder sb = new StringBuilder();
+       sb.append("java");
+//        String a = "java";
+        String a = sb.toString();
+        String b = "java";
+        System.out.println(a.intern() == a);
     }
 }
 

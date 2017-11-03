@@ -17,6 +17,7 @@ object StoreMysql {
       val f = lines.split("\\|")
       (f(2), f(3), f(6))
     })
+    ipRules.checkpoint()
     val a = ipRules.collect()
     //将ip规则从driver广播到存有job的worker中
     val ipRulesBroadcast = sc.broadcast(a)
